@@ -37,7 +37,7 @@ namespace Lab20
 
         static double Volume(double rad)
         {
-            return 4 / 3 * Math.PI * Math.Pow(rad, 3);
+            return Math.PI * Math.Pow(rad, 3) * 4 / 3;
         }
     }
 }
